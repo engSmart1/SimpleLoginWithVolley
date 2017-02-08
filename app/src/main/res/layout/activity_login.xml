@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="MyUsername123"
+        android:ems="10"
+        android:id="@+id/edit_username" />
+
+    <TextView
+        android:text="Password"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="MyPassword687"
+        android:ems="10"
+        android:id="@+id/edit_password" />
+
+    <TextView
+
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_message" />
+
+    <Button
+        android:text="login"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_login" />
+
+    </LinearLayout>
